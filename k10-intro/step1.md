@@ -19,8 +19,8 @@ once all pods are running hit `clear`{{execute interrupt}} or `CTRL + C` to exit
 
 ## Expose Dashboard via NodePort
 
-`kubectl apply -f nodeport-svc.yaml`
+`kubectl apply -f nodeport-svc.yaml`{{execute}}
 
 To view the dashboard click on "K10 Dashboard" or on the link below to view
 
-https://[[HOST_SUBDOMAIN]]-31000-[[KATACODA_HOST]].environments.katacoda.com/k10/#/status
+https://[[HOST_SUBDOMAIN]]-31000-[[KATACODA_HOST]].environments.katacoda.com/k10/#/
