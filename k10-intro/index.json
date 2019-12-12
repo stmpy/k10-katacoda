@@ -29,7 +29,8 @@
       "host01": [
         {
           "file": "tiller.sh",
-          "target": "/usr/local/bin"
+          "target": "/usr/local/bin",
+          "chmod": "+x"
         }
       ]
     }
