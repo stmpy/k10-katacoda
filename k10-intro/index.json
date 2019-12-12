@@ -36,13 +36,13 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-terminal",
+    "uilayout": "terminal-iframe",
     "showdashboard": true,
     "terminals": [
       {"name": "Terminal 2", "target": "host01"}
     ],
     "dashboards": [
-      {"name": "K10 Dashboard", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com"}
+      {"name": "K10 Dashboard", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/k10/#/"}
     ]
   },
   "backend": {

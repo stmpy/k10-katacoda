@@ -13,12 +13,14 @@ basic install, including EULA accept with company and email
   --set prometheus.enabled=false`{{execute}}
 
 ### Wait for K10 platform to become available
+It will take a minute for K10 to finish coming up, you can watch the pods come up with the command below
+`watch -n 2 "kubectl -n kasten-io get pods"`{{execute}}
+once all pods are running hit `clear`{{execute interrupt}} or `CTRL + C` to exit watch
+
+Once the gateway pod is ready, we want to launch a port-forward so we can view the dashboard
+
 `kubectl -n kasten-io port-forward service/gateway 8080:8000`{{execute T2}}
 
-watch as K10 becomes available
+To view the dashboard click on "K10 Dashboard" or on the link below to view
 
-click on "K10 Dashboard" or the link below
-
-https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com
-
-once all pods are running hit `CTRL + C` to exit watch
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/k10/#/status
