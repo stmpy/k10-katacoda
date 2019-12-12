@@ -28,7 +28,7 @@
     "assets": {
       "host01": [
         {
-          "file": "tiller.sh",
+          "file": "startup.sh",
           "target": "/usr/local/bin",
           "chmod": "+x"
         },
