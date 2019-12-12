@@ -24,13 +24,20 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "tiller.sh",
+          "target": "/usr/local/bin"
+        }
+      ]
     }
   },
   "environment": {
     "uilayout": "terminal-iframe",
     "showdashboard": true,
     "terminals": [
-      {"name": "Terminal 1", "target": "host01"},
       {"name": "Terminal 2", "target": "host01"}
     ],
     "dashboards": [
