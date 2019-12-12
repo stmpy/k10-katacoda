@@ -1,19 +1,8 @@
-#!/bin/bash
+# everything in this file is VERY verbose, removing to separate files to reduce that
 
 # wait for kubernetes
 # provided from katacoda
 launch.sh
 
-# once ready, install tiller
-echo "Waiting for Tiller to start..."
-kubectl create sa tiller --namespace kube-system 1> /dev/null 2>&1
-kubectl create clusterrolebinding \
-  --serviceaccount kube-system:tiller \
-  --clusterrole cluster-admin tiller-crb 1> /dev/null 2>&1
-helm init --service-account tiller 1> /dev/null 2>&1
-
-while [ "Running" != "$(kubectl -n kube-system get pods | grep tiller | awk {'print $3'})" ]
-do
-  sleep 1
-done
-echo "Tiller started"
+# wait for tiller
+tiller.sh
