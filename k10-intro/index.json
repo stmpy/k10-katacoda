@@ -31,6 +31,10 @@
           "file": "tiller.sh",
           "target": "/usr/local/bin",
           "chmod": "+x"
+        },
+        {
+          "file": "nodeport-svc.yaml",
+          "target": "~/"
         }
       ]
     }
@@ -38,11 +42,8 @@
   "environment": {
     "uilayout": "terminal-iframe",
     "showdashboard": true,
-    "terminals": [
-      {"name": "Terminal 2", "target": "host01"}
-    ],
     "dashboards": [
-      {"name": "K10 Dashboard", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/k10/#/"}
+      {"name": "K10 Dashboard", "href": "https://[[HOST_SUBDOMAIN]]-31000-[[KATACODA_HOST]].environments.katacoda.com/k10/#/"}
     ]
   },
   "backend": {
