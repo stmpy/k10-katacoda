@@ -13,8 +13,7 @@ basic install, including EULA accept with company and email
   --set prometheus.enabled=false`{{execute}}
 
 ### Wait for K10 platform to become available
-`watch -n 2 "kubectl -n kasten-io get pods"`{{execute}}
-`kubectl -n kasten-io portforward service/gateway 8080:8000`{{execute T2}}
+`kubectl -n kasten-io port-forward service/gateway 8080:8000`{{execute T2}}
 
 watch as K10 becomes available
 

@@ -36,7 +36,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe",
+    "uilayout": "terminal-terminal",
     "showdashboard": true,
     "terminals": [
       {"name": "Terminal 2", "target": "host01"}
