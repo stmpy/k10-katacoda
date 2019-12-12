@@ -55,7 +55,11 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal-terminal",
+    "showdashboard": true,
+    "dashboards": [
+      {"name": "K10 Dashboard", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com"}
+    ]
   },
   "backend": {
     "imageid": "kubernetes"
