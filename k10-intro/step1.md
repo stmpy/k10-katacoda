@@ -23,4 +23,4 @@ once all pods are running hit `clear`{{execute interrupt}} or `CTRL + C` to exit
 
 To view the dashboard click on "K10 Dashboard" or on the link below to view
 
-https://[[HOST_SUBDOMAIN]]-31000-[[KATACODA_HOST]].environments.katacoda.com/k10/#/
+https://[[HOST_SUBDOMAIN]]-32000-[[KATACODA_HOST]].environments.katacoda.com/k10/#/

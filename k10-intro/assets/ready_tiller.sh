@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# wait for kubernetes to be ready
-launch.sh
-
 # once ready, install tiller
 echo "Waiting for Tiller to start..."
 kubectl create sa tiller --namespace kube-system 1> /dev/null 2>&1
