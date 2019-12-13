@@ -44,7 +44,7 @@
     "showdashboard": true,
     "dashboards": [
       {"name": "K10 Dashboard", "href": "https://[[HOST_SUBDOMAIN]]-32000-[[KATACODA_HOST]].environments.katacoda.com/k10/#/"},
-      {"name": "Vote: Submit", "href": "https://[[HOST_SUBDOMAIN]]-31000-[[KATACODA_HOST]].environments.katacoda.com"}
+      {"name": "Vote: Submit", "href": "https://[[HOST_SUBDOMAIN]]-31000-[[KATACODA_HOST]].environments.katacoda.com"},
       {"name": "Vote: Result", "href": "https://[[HOST_SUBDOMAIN]]-31001-[[KATACODA_HOST]].environments.katacoda.com"}
     ]
   },
