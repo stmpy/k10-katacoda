@@ -8,7 +8,7 @@ kubectl create clusterrolebinding \
   --clusterrole cluster-admin tiller-crb 1> /dev/null 2>&1
 helm init --service-account tiller 1> /dev/null 2>&1
 
-sleep 2
+sleep 3
 
 while [ "Running" != "$(kubectl -n kube-system get pods | grep tiller | awk {'print $3'})" ]
 do

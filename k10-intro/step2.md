@@ -8,7 +8,7 @@ using a stateless voting docker sample application. The default layout of this a
 `kubectl create ns vote`{{execute}}
 `kubectl apply -f example-voting-app/k8s-specifications/`{{execute}}
 
-`watch -n 2 “kubectl -n vote get pods”`{{execute}}
+`watch -n 2 "kubectl -n vote get pods"`{{execute}}
 
 once all of the pods are ready, `clear`{{execute interrupt}}
 

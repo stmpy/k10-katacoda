@@ -1,11 +1,15 @@
-# Create backup policy in K10
+# K10 interface
 
-in the “K10 Dashboard” you should see the vote application, we are going to create a policy to back up the application.
+## Ready
+running the following command we want to make sure that all of K10 is available and ready
 
-browse to http://external.ip/k10/#/
+`watch -n 2 "kubectl -n kasten-io get pods"`{{execute}}
+once all pods are running hit `clear`{{execute interrupt}} or `CTRL + C` to exit watch
 
-click on Applications (image)
+## Expose Dashboard via NodePort
 
-and create a policy to backup application (image)
+`kubectl apply -f nodeport-svc.yaml`{{execute}}
 
-back to dashboard
+To view the dashboard click on "K10 Dashboard" or on the link below to view
+
+https://[[HOST_SUBDOMAIN]]-32000-[[KATACODA_HOST]].environments.katacoda.com/k10/#/

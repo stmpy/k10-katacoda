@@ -7,20 +7,24 @@
     "steps": [
       {
         "title": "Install K10",
-        "text": "step1.md",
-        "code": "foreground.sh"
+        "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Install an application",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Check K10 readiness",
         "text": "step3.md"
+      },
+      {
+        "title": "Create Policy",
+        "text": "step4.md"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+        "code": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
