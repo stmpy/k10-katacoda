@@ -20,6 +20,22 @@
       {
         "title": "Create Policy",
         "text": "step4.md"
+      },
+      {
+        "title": "Verify Backup",
+        "text": "step5.md"
+      },
+      {
+        "title": "Delete Application",
+        "text": "step6.md"
+      },
+      {
+        "title": "Restore Application",
+        "text": "step7.md"
+      },
+      {
+        "title": "Verify Restoration",
+        "text": "step8.md"
       }
     ],
     "intro": {
