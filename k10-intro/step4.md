@@ -1,16 +1,16 @@
-# Create backup policy in K10
-
-in the “K10 Dashboard” you should see the vote application, we are going to create a policy to back up the application.
+The “K10 Dashboard” tab, after being refreshed, will display the K10 dashboard.  you should see the vote application, we are going to create a policy to back up the application.
 
 click on Applications
 
-![Applications](images/applications.png)
+![Applications](/travis-kasten/scenarios/k10-intro/assets/applications.png)
 
 and click on "Create a Policy" to backup application
-![Create a Policy](images/create-policy.png)
+
+![Create a Policy](/travis-kasten/scenarios/k10-intro/assets/create-policy.png)
 
 We don't need to do anything with the policy, we will be backingup all resource in the `Vote` application, which we will explore in more detail a little later.
-![Policy Creation](images/policy-creation.png)
+
+![Policy Creation](/travis-kasten/scenarios/k10-intro/assets/policy-creation.png)
 
 ## Policy Customization
 The policy can be customized to change backup frequency, backup retention, or even be selective about what will be backedup.

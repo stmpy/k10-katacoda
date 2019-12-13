@@ -1,4 +1,4 @@
-First step is installing K10 platform
+K10 requires a kubernetes cluster, and an installation method, we will be using Helm (v2) and tiller. Right now the cluster is being readied by ensuring that both kubernetes and tiller are both ready before we continue.
 # Install K10
 
 `helm repo add kasten https://charts.kasten.io/`{{execute}}
@@ -12,5 +12,4 @@ basic install, including EULA accept with company and email
   --set persistence.enabled=false \
   --set prometheus.enabled=false`{{execute}}
 
-## Wait for K10 platform to become available
 While we wait, let's install an application in the next step
