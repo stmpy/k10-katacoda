@@ -28,5 +28,5 @@ https://[[HOST_SUBDOMAIN]]-32000-[[KATACODA_HOST]].environments.katacoda.com/k10
 
 The restore will process and once completed you'll see it's status in the "Jobs" list
 
-![Completed Restore](/travis-kasten/scenarios/k10-intros/assets/completed-restoreo.png)
+![Completed Restore](/travis-kasten/scenarios/k10-intros/assets/completed-restore.png)
 

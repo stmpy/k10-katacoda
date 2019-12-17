@@ -6,9 +6,12 @@ using a stateless voting docker sample application.
 # create namespace (application) and deploy
 `kubectl create ns guestbook`{{execute}}
 
-Change replicas to only 1
+Reduce the amount of replicas to 1 for the frontend deployment
 
 `sed -i "s/replicas: [0-9]/replicas: 1/g" examples/guestbook/frontend-deployment.yaml`{{execute}}
+
+as well as the redis cluster
+
 `sed -i "s/replicas: [0-9]/replicas: 1/g" examples/guestbook/redis-slave-deployment.yaml`{{execute}}
 
 Deploy application by applying frontend deployment, service and redis deployment and service

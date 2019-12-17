@@ -1,5 +1,3 @@
-The “K10 Dashboard” tab, after being refreshed, will display the K10 dashboard.  you should see the vote application, we are going to create a policy to back up the application.
-
 click on Applications
 
 ![Applications](/travis-kasten/scenarios/k10-intro/assets/applications.png)
