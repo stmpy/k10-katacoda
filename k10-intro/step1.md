@@ -1,4 +1,4 @@
-K10 requires a kubernetes cluster, and an installation method, we will be using Helm (v2) and tiller. Right now the cluster is being readied by ensuring that both kubernetes and tiller are both ready before we continue.
+K10 requires a kubernetes cluster, and an installation method, we will be using Helm (v2) and tiller. Right now the cluster is being readied by ensuring that both kubernetes and tiller are ready before we continue.
 # Install K10
 
 `helm repo add kasten https://charts.kasten.io/`{{execute}}
