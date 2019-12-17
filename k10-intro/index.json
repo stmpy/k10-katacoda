@@ -53,20 +53,18 @@
           "chmod": "+x"
         },
         {
-          "file": "nodeport-svc.yaml",
+          "file": "guestbook-frontend-svc.yaml",
+          "target": "~/"
+        },
+        {
+          "file": "k10-nodeport-svc.yaml",
           "target": "~/"
         }
       ]
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe",
-    "showdashboard": true,
-    "dashboards": [
-      {"name": "K10 Dashboard", "href": "https://[[HOST_SUBDOMAIN]]-32000-[[KATACODA_HOST]].environments.katacoda.com/k10/#/"},
-      {"name": "Vote: Submit", "href": "https://[[HOST_SUBDOMAIN]]-31000-[[KATACODA_HOST]].environments.katacoda.com"},
-      {"name": "Vote: Result", "href": "https://[[HOST_SUBDOMAIN]]-31001-[[KATACODA_HOST]].environments.katacoda.com"}
-    ]
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "kubernetes"

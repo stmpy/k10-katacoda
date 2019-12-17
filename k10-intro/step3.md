@@ -8,7 +8,7 @@ once all pods are running hit `clear`{{execute interrupt}} or `CTRL + C` to exit
 
 ## Expose Dashboard via NodePort
 
-`kubectl apply -f nodeport-svc.yaml`{{execute}}
+`kubectl apply -f k10-nodeport-svc.yaml`{{execute}}
 
 To view the dashboard click on "K10 Dashboard" or on the link below to view
 
