@@ -71,6 +71,6 @@
     ]
   },
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "kubernetes:1.18"
   }
 }
