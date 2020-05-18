@@ -4,4 +4,4 @@
 launch.sh
 
 # wait for tiller
-ready_tiller.sh
+# ready_tiller.sh
